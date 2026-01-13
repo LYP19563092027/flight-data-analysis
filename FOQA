@@ -1,0 +1,18 @@
+flight-data-analysis/
+│
+├── README.md              # 项目说明（一定要写）
+├── requirements.txt       # Python依赖
+│
+├── data/
+│   └── README.md          # 说明数据来源（不放真实数据）
+│
+├── sql/
+│   └── sample_query.sql   # 示例SQL
+│
+├── src/
+│   ├── db_connect.py      # 数据库连接
+│   ├── load_data.py       # 读取航班数据
+│   └── analysis_basic.py  # 基础统计分析
+│
+└── notebooks/
+    └── exploration.ipynb  # 交互式分析
